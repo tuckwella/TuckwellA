@@ -3,9 +3,11 @@
 <script>
 var canv = document.getElementById("ctx");
 var ctx = canv.getContext("2d");
-var x = 7;
+var x = 20;
+setInterval( chang,20);
 function change(){
- x = 300; 
+ x++;
+ x = 100; 
 }
 ctx.fillRect(x,100,50,50);
 change();
