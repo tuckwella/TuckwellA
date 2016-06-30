@@ -9,12 +9,13 @@ setInterval( change,20);
 function change(){
 ctx.clearRect(0,0,700,500);
 x = x + mouvement;
-ctx.fillRect(x,y,50,50);
-mouvement = -1;
+ctx.fillRect(x,225,50,50);
 if(x == 650){
+  mouvement = -1;
 } 
 if(x == 0){
   mouvement = 1;
+}
 }
 
 </script>
