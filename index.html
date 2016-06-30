@@ -4,11 +4,10 @@
 var canv = document.getElementById("ctx");
 var ctx = canv.getContext("2d");
 var x = 7;
-ctx.fillRect(x,250,50,50);
-var x = 300;
-ctx.fillRect(x,250,50,50)
-x = 200;
-y = 300;
-
-
+function change(){
+ x = 300; 
+}
+ctx.fillRect(x,100,50,50);
+change();
+ctx.fillRect(X,100,50,50);
 </script>
